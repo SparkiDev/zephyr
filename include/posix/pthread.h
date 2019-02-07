@@ -10,7 +10,9 @@
 #include <kernel.h>
 #include <wait_q.h>
 #include <posix/time.h>
+#if 0
 #include <posix/unistd.h>
+#endif
 #include "sys/types.h"
 #include "posix_sched.h"
 #include <posix/pthread_key.h>

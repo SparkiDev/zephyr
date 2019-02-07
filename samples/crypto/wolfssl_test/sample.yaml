@@ -1,0 +1,9 @@
+common:
+  harness: crypto
+  tags: crypto
+sample:
+  description: wolfSSL benchmark application
+  name: wolfSSL Benchmark
+tests:
+  test:
+    platform_whitelist: qemu_x86 qemu_x86_64 native_posix

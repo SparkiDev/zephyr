@@ -8,5 +8,6 @@ menu "Cryptography"
 
 source "ext/lib/crypto/tinycrypt/Kconfig"
 source "ext/lib/crypto/mbedtls/Kconfig"
+source "ext/lib/crypto/wolfssl/Kconfig"
 
 endmenu

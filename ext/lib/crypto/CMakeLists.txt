@@ -1,2 +1,3 @@
 add_subdirectory_if_kconfig(tinycrypt)
 add_subdirectory_ifdef(CONFIG_MBEDTLS mbedtls)
+add_subdirectory_ifdef(CONFIG_WOLFSSL wolfssl)
